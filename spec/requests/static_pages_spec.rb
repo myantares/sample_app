@@ -38,6 +38,7 @@ describe "Help page" do
       expect(page).to have_title("Ruby on Rails Tutorial Sample App | About")
     end
  end
+<<<<<<< HEAD
 
  describe "Contacts" do
   it "content = @sample.app" do
@@ -49,4 +50,6 @@ describe "Help page" do
     expect(page).to have_title('Contact Us')
   end
  end
+=======
+>>>>>>> 6f9f4f2077d542d17f9c4f919a3ad5f23f4ec31c
 end
